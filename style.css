@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body{
+    background-color: #e1faf9;
+}
+header{
+    text-align: center;
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+    border: 1px solid none;
+    padding: 1px 20px;
+}
+
+li{
+    margin-left: 40px;
+}
+li > a:hover{
+    color: #16697A;
+    text-decoration: underline;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+}
+section {
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 5px;
+}
+.cet{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.comunidad {
+    height: 700px;
+    width: 275px;
+    background-color: #16697a94;
+}
+
+.mapa {
+    margin-top: 125px;
+    height: 500px;
+    width: 500px;
+    display: grid;
+}
+.tendencia {
+    height: 700px;
+    width: 275px;
+    background-color: #16697a94;
+    display: flex;
+    flex-direction: column; /* Ordena los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.tendencia > article {
+    margin: 15px 0; /* Espacio entre los artículos (arriba y abajo) */
+    text-align: center;
+}
+
+.tendencia > article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.tendencia > article p{
+    font-size: 20px;
+    color: black;
+}
+/*.tendencia {
+    height: 700px;
+    width: 275px;
+    background-color: #16697a94;
+}
+.tendencia > article{
+    text-align: center;
+    margin: auto;
+}
+.tendencia > article p{
+    font-size: 20px;
+    color: black;
+}*/
+section > article img {
+    width: 100%;
+    height: auto;
+  }
+
+footer {
+    text-align: center;
+}
